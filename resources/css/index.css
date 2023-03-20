@@ -1,0 +1,151 @@
+#score {
+    color: #ffffff;
+    font-size: 18pt;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+
+body {
+    background-color: black;
+    font-size: 30pt;
+    font-family: 'Press Start 2p';
+    position:fixed;
+  }
+
+.start-btn{
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 100pt;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 36%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+	display: inline-block;
+	margin:5px;
+    font-weight: bold;
+    padding: 10px 0 10px 10px ;
+    background-color: lightgray;
+    text-shadow: -1px -1px black, 1px 1px white;
+    color: gray;
+    -webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	border-radius: 7px;
+    box-shadow: 0 .2em gray; 
+    cursor: pointer;
+
+}
+.start-btn:active {
+	box-shadow: none;
+    position: relative;
+	top: .2em;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    left: 15;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+body{
+    background-color: rgb(24, 24, 24);
+}
+
+#game{
+    width: 1424px;
+    height: 610px;
+    margin:auto;
+    background-image: url(../images/space.jpg);
+    margin-top:5vh;
+    position:relative;
+    overflow:hidden;
+}
+#game2{
+    width: 1424px;
+    height: 900px;
+    margin-bottom: 0%;
+    background-position: cover;
+}
+
+img{
+    width: 20%;
+    margin-left: 39%;
+}
+#player{
+    transform:rotate(90deg);
+    width:70px;
+    margin-left:25px;
+    position:relative;
+    z-index:20;
+}
+
+#summoner{
+    width:20%;
+    height:100%;
+    position:absolute;
+    top:0;
+    right:-20%;
+}
+
+.summoners{
+    width:100%;
+    height:20%;
+    
+}
+
+.planet1{
+    width:100px;
+    z-index:11;
+}
+.planet2{
+    width:150px;
+    z-index:12;
+}
+.planet3{
+    width:200px;
+    z-index:13;
+}
+.planet4{
+    width:250px;
+    z-index:14;
+}
+.planet5{
+    width:300px;
+    z-index:15;
+}
+
+.planets{
+    position:absolute;
+    filter: brightness(50%)
+}
+
+.enemy{
+    width:100px;
+    position:absolute;
+    z-index:19;
+}
+
+.bullets{
+    width:15px;
+    height:3px;
+    background-color:#fff;
+    position:absolute;
+    top:0;
+    z-index: 18;
+}
+.button {
+    background-color: #4CAF50;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    margin-top: 35%;
+    margin-left: 43%;
+    text-decoration: none;
+    position: relative;
+    z-index: 100;
+  }
